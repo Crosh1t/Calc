@@ -66,6 +66,9 @@ public class Main {
                 throw new Exception("throw exception");
             }
         }
+        if (result > 20) {
+            throw new Exception("throw exception");
+        }
 
         return "" + result;
     }
